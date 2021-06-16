@@ -1,0 +1,211 @@
+.profile{
+    width: 700px;
+    height: fit-content;
+    border: rgb(110, 121, 135,0.5) 1px solid;
+    margin: auto;
+}
+.dsc-header{
+    position: relative;
+    color: white;
+    cursor: pointer;
+}
+.fa-arrow-left{
+    color: rgba(0, 171, 238, 0.842);
+    margin: 20px;
+}
+.dsc-jssaten{
+    position: absolute;
+    top: 1px;
+    left: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    width: fit-content;
+}
+.tweet-count{
+    color: rgb(255, 255, 255,0.5);
+    background-color: rgb(110, 121, 135,0);
+    position: absolute;
+    font-size: 13px;
+    top: 30px;
+    left: 50px;
+}
+.cover{
+    margin-top: 10px;
+    height: 233.5px;
+    cursor: pointer;
+}
+.pfp{
+    margin-top: -11%;
+    margin-left: 20px;
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    border: 3px solid #000;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.more, .message, .follow{
+    border-radius: 100%;
+    width: 20px;
+    color: rgba(0, 171, 238, 0.842);
+    border: 1px solid rgba(0, 171, 238, 0.842);
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(0, 171, 238, 0);
+    cursor: pointer;
+}
+.follow{
+    width: fit-content;
+    border-radius: 20px;
+}
+.connect{
+    background-color: rgba(0, 171, 238, 0);
+    position: relative;
+    left: 500px;
+    bottom: 65px;
+    width: fit-content;
+    display: flex;
+}
+.more:hover, .message:hover, .follow:hover{
+    background-color: rgba(0, 171, 238, 0.1);
+    transition: 0.4s;
+    z-index: 3;
+}
+.about{
+    color: white;
+    position: relative;
+}
+.profile-name{
+    position: relative;
+    left: 30px;
+    bottom: 65px;
+    background-color: rgb(255, 255, 255, 0);
+    font-size: 22px;
+    font-weight: bolder;
+    width: fit-content;
+}
+.handle{
+    position: relative;
+    color: rgb(255, 255, 255,0.4);
+    background-color: transparent;
+    font-size: 14px;
+    bottom: 75px;
+    left: 30px;
+}
+.bio{
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    font-weight: 300;
+    width: 600px;
+    line-height: 20px;
+    background-color: transparent;
+}
+a {
+    color: rgba(0, 171, 238);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.after-about{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 255, 255,0.3);
+}
+.location,.url,.joined{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+.fa{
+    margin: 5px;
+}
+
+@media screen and (max-width: 960px) {
+    .profile{
+        border: none;
+        margin: auto;
+        width: 390px;
+    }
+    .dsc-jssaten{
+        top: -5px;
+        font-size: 14px;
+        font-weight: 900;
+    }
+    .fa-arrow-left{
+        position: relativea;
+        font-size: 13px;
+        bottom: 10px;
+        margin: 10px;
+    }
+    .tweet-count{
+        font-size: 11px;
+        top: 10px;
+        left: 50px;
+    }
+    .cover{
+        left: 0;
+        margin-left: -10px;
+        height: 102.8px;
+    }
+    .pfp{
+        position: absolute;
+        top: 160px;
+        left: 0;
+        height: 70px;
+        width: 70px;
+    }
+    .profile-name{
+        bottom: 5px;
+        left: 15px;
+        font-size: 14px;
+        font-weight: 900;
+    }
+    .handle{
+        font-size: 10px;
+        bottom: 15px;
+        left: 15px; 
+    }
+    .bio{
+        font-size: 10px;
+        font-weight: 400;
+        left: 20px;
+        top: 25px;
+        width: 240px;
+        line-height: 11px;
+    }
+    .after-about{
+        padding-top: 20px;
+        margin-left: 7px;
+        height: 35px;
+        width: 100px;
+    }
+    .j, .fa{
+        width: max-content;
+        font-size: 10px;
+    }
+    .connect{
+        zoom: 60%;
+        top: 10px;
+        bottom: 0;
+        left: 290px;
+    }
+    /*
+    .more, .message, .follow{
+        padding: 1px;
+    }
+    .m{
+        font-size: 10px;
+        margin-bottom: 6px;
+    }
+    .follow{
+        padding:0 10px;
+    } */
+}

@@ -1,0 +1,118 @@
+.card-section{
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+
+.like, .happen, .topics{
+    background-color:#15181c;
+    border-radius: 30px;
+    margin: 10px 0;
+    color: #ffffff;
+
+}
+.like{
+    height: 345px;
+    width: 320px;
+    
+}
+.like-item, .topics-item, .happen-item{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px rgb(255, 255, 255,0.15) solid;
+    border-style: solid none;
+    height: fit-content;
+    background-color: transparent;  
+    padding: 12px;
+    cursor: pointer;
+}
+.like-pfp{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.like-user, .like-tag{
+    background-color: transparent;
+    margin: 10px;
+    margin-top: -20px;
+}
+.like-tag{
+    color: rgb(255, 255, 255,0.3);
+    position: absolute;
+    top: 55px;
+    left: 65px;
+    font-size: 14px;
+}
+.like-user:hover{
+    text-decoration: underline;
+}
+.like-showmore{
+    position: absolute;
+    top: 320px;
+    left: 30px;
+}
+.topics-showmore{
+    position: relative;
+    left: 30px;
+    top: 15px;
+}
+.happen{
+    height: 450px;
+    width: 300px;
+
+}
+.topics{
+    height: 505px;
+    width: 300px;
+}
+.t{
+    background-color: transparent;
+    margin-left: 30px;
+}
+.topics-h, .topics-t,.happen-t,.happen-h{
+    background-color: transparent;
+    margin-left: 10px;
+}
+.topic-item{
+    padding: 1px;
+}
+.topics-h{
+    margin-top: 10px;
+}
+.topics-t{
+    position: absolute;
+    top: 30px;
+    font-size: 14px;
+    color: rgb(255, 255, 255,0.3);
+}
+.happen-t{
+    position: absolute;
+    top: 0;
+    font-size: 13px;
+    color: rgb(255, 255, 255,0.3);
+}
+.happen-h{
+    font-size: 15px;
+    padding-top: 7px;
+    width: 250px;
+}
+.happen-showmore{
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+.tw{
+    top: 45px;
+    left: 20px;
+}
+@media screen and (max-width: 960px) {
+    .card-section{
+        display: none;
+    }
+}

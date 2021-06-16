@@ -1,0 +1,14 @@
+.tweets{
+    width: 700px;
+    height: fit-content;
+    border: rgb(110, 121, 135,0.5) 1px solid;
+    margin: auto;
+}
+@media screen and (max-width: 960px) {
+    .tweets{
+        position: absolute;
+        left: 0;
+        border-style: none;
+        width: 200px;
+    }
+}

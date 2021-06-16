@@ -1,0 +1,16 @@
+.follow-1{
+    position: absolute;
+    right: 10px;
+    border-radius: 100%;
+    color: rgba(0, 171, 238, 0.842);
+    border: 1px solid rgba(0, 171, 238, 0.842);
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 171, 238, 0);
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 20px;
+}
+.follow-1:hover{
+    background-color: rgba(0, 171, 238, 0.1);
+}
